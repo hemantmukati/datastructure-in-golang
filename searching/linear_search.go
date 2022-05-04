@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 
-	arr := []int{2, 5, 8, 0, 7, 3, 1}
+	arr := []int{2, 5, 8, 0, 7,4,5,6, 3, 1}
 	exist := linearSearch(arr, 1)
 	fmt.Println("element is exist:", exist)
 
